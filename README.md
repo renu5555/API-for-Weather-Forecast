@@ -1,9 +1,5 @@
 # API-for-Weather-Forecast
-Click on a sentence to see its alternatives
 
-Certainly! Here's the content you can include in your `readme.md` file:
-
-```markdown
 # Weather API with Flask
 
 A weather API based on a simple design with Flask lets its consumers get information on what is the weather now in several cities. Acquiring of the weather data from OpenWeatherMap API.
