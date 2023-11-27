@@ -51,3 +51,9 @@ In the terminal, you will see the base URL http: //127.0.0.1:5000. The error cod
 6. To fetch weather data, append the base URL with the API endpoint: http://127.0.0.1:5000/weather?location=city,state (e.g., http://127.0.0.1:5000/weather?location=Kunigal,Karnataka&location=Jaipur,Rajasthan&location=Pattaya,Thailand).
 
 7. View the JSON response.
+
+##   Screenshots
+![](a)
+![](b)
+![](c)
+![](postman2)
