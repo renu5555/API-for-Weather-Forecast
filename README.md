@@ -1,5 +1,6 @@
 # API-for-Weather-Forecast
-![Uploading weather.jpg…]()
+
+![weather](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/37026028-136a-4869-bc46-061c5271b304)
 
 # Weather API with Flask
 
@@ -58,4 +59,3 @@ In the terminal, you will see the base URL http: //127.0.0.1:5000. The error cod
 ![b](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/bbdc7db3-4438-4071-801a-f4a20527918b)
 ![C](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/eb0dd45a-8480-456c-b79e-333318b211ef)
 ![postman2](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/59b0a6fc-7180-48ea-8c70-87db3ab2401b)
-![weather](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/37026028-136a-4869-bc46-061c5271b304)
