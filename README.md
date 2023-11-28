@@ -14,27 +14,36 @@ A weather API based on a simple design with Flask lets its consumers get informa
 
 ## Getting Started
 
-1.Get your OpenWeatherMap API key. You can obtain it by signing up here.
+1.Install the required libraries.
 
-2.Run the application.
-python app.py
-3.Open Postman and create a new request to http://127.0.0.1:5000/weather with the GET method.
+2.Get your OpenWeatherMap API key.
 
-4.Add a query param location with the value being the city and state (e.g., Bengaluru, KA).
+3.Run the application.
 
-5.Submit the request and verify the response.
+4.Open Postman and create a new request to http: //127.0.0.1:5000/weather with the GET method.
+
+5.Add a query param location with the value being the city and state (eg: Bengaluru, KA).
+
+6.Submit the request and verify the response.
 
 Note: Comparing it with OpenWeatherMap will help you determine whether this returned data is correct.
 
 ## Detailed Explanation
 
 1.Execute the python script in VSCode.
+
 2.In the terminal you can see the base url http: //127.0.0.1:5000. On clicking this url, you will see 404 error.
+
 3.Go now on to your post man workspace and set the request type as GET.
+
 4.Enter the URL for your Flask API endpoint i.e, http: //127.0.0.1:5000/weather?.
+
 5.Click on the "Params" tab. In the “Key” section write down location. For retrieving the weather information of the city and state (e.g., Chicago-IL), provide it in the “Value” column.
+
 6.Press the send key to send for this request.
+
 7.Now go back to the base url, inorder to fetch the weather data, you have to append the base url with the api endpoint i.e, http: //127.0.0.1:5000/weather?location=city,state (eg: http://127.0.0.1:5000/weather?location=Bengaluru, Karnataka&location=Mysore, Karnataka).
+
 8.See now, how the JSON file appears here.
 
 ##   Screenshots
