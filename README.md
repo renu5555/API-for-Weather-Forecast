@@ -46,6 +46,25 @@ Note: Comparing it with OpenWeatherMap will help you determine whether this retu
 
 8.See now, how the JSON file appears here.
 
+## Usage
+Ensure the server is running. To retrieve weather information, make a GET request to the /api/weather endpoint with the city parameter.
+
+## API Endpoint
+/api/weather: Get weather information for a specific city.
+
+Parameters: city (required): The name of the city for which you want weather information.
+
+Example: curl http://127.0.0.1:5000/weather?location=Bengaluru, Karnataka&location=Mysore, Karnataka
+
+## Configuration
+To use this project, you need to obtain an API key from OpenWeatherMap and update the configuration.
+
+Search for OPENWEATHERMAP_API_KEY in the code.
+Replace the Key with your actual OpenWeatherMap API key.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions, please open an issue or submit a pull request.
+
 ##   Screenshots
 ![a](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/0daa8d02-d2cb-42a2-be8c-03df6e5fc7c9)
 ![b](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/bbdc7db3-4438-4071-801a-f4a20527918b)
