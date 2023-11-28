@@ -14,38 +14,25 @@ A weather API based on a simple design with Flask lets its consumers get informa
 
 ## Getting Started
 
-1. Install the required libraries.
-
-pip install Flask requests
-2. Get your OpenWeatherMap API key. You can obtain it by [signing up here](https: //openweathermap.org/api).
-
-3. Run the application.
-python app.py
-4. Open Postman and create a new request to http: //127.0.0.1:5000/weather with the GET method.
-
-5. Append a query param location with the text city and state (e.g., Bengaluru, KA).
-
-6. Make the request, read the result.
+1.Install the required libraries.
+2.Get your OpenWeatherMap API key.
+3.Run the application.
+4.Open Postman and create a new request to http: //127.0.0.1:5000/weather with the GET method.
+5.Add a query param location with the value being the city and state (eg: Bengaluru, KA).
+6.Submit the request and verify the response.
 
 **Note: Comparing it with OpenWeatherMap will help you determine whether this returned data is correct.
 
 ## Detailed Explanation
 
-1. In VSCode run Python script.
-
-In the terminal, you will see the base URL http: //127.0.0.1:5000. The error code 404 for a click on this url.
-
-2. Go for Postman and ensure that the request mode is get.
-
-3. Enter the URL for your Flask API endpoint: http://127.0.0.1:5000/weather?
-
-4. Click on the "Params" tab. Into the “Key” box, write `location`. Input the city and state in the “value” field.
-
-5. To do this, simply click “submit”.
-
-6. To fetch weather data, append the base URL with the API endpoint: http://127.0.0.1:5000/weather?location=city,state (e.g., http://127.0.0.1:5000/weather?location=Kunigal,Karnataka&location=Jaipur,Rajasthan&location=Pattaya,Thailand).
-
-7. View the JSON response.
+1.Execute the python script in VSCode.
+2.In the terminal you can see the base url http: //127.0.0.1:5000. On clicking this url, you will see 404 error.
+3.Go now on to your post man workspace and set the request type as GET.
+4.Enter the URL for your Flask API endpoint i.e, http: //127.0.0.1:5000/weather?.
+5.Click on the "Params" tab. In the “Key” section write down location. For retrieving the weather information of the city and state (e.g., Chicago-IL), provide it in the “Value” column.
+6.Press the send key to send for this request.
+7.Now go back to the base url, inorder to fetch the weather data, you have to append the base url with the api endpoint i.e, http: //127.0.0.1:5000/weather?location=city,state (eg: http://127.0.0.1:5000/weather?location=Bengaluru, Karnataka&location=Mysore, Karnataka).
+8.See now, how the JSON file appears here.
 
 ##   Screenshots
 ![a](https://github.com/renu5555/API-for-Weather-Forecast/assets/139370797/0daa8d02-d2cb-42a2-be8c-03df6e5fc7c9)
