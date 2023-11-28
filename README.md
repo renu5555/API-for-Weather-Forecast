@@ -16,18 +16,11 @@ A weather API based on a simple design with Flask lets its consumers get informa
 
 1. Install the required libraries.
 
-```bash
 pip install Flask requests
-```
-
 2. Get your OpenWeatherMap API key. You can obtain it by [signing up here](https: //openweathermap.org/api).
 
 3. Run the application.
-
-```bash
 python app.py
-```
-
 4. Open Postman and create a new request to http: //127.0.0.1:5000/weather with the GET method.
 
 5. Append a query param location with the text city and state (e.g., Bengaluru, KA).
